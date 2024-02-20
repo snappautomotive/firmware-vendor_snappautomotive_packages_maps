@@ -1,0 +1,14 @@
+android_app_import {
+    name: "osmdroid",
+    apk: "SnappMaps.apk",
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
+    overrides: [
+	"CarMapsPlaceholder",
+    ],
+    presigned: true,
+    privileged: true,
+    proprietary: true,
+}
