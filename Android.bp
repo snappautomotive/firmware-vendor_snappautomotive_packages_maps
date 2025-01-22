@@ -8,6 +8,7 @@ android_app_import {
     overrides: [
 	"CarMapsPlaceholder",
     ],
+    preprocessed: true,
     presigned: true,
     privileged: true,
     proprietary: true,
